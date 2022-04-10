@@ -131,4 +131,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# sending email
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 django_on_heroku.settings(locals())
